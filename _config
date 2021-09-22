@@ -1,0 +1,22 @@
+
+Target: riscv64-suse-linux-gnu
+
+%ifarch x86_64
+Required: qemu-linux-user
+Required: qemu-tools
+Required: build-initvm-x86_64
+Required: gptfdisk
+Required: kpartx
+Required: dosfstools
+Required: python3-kiwi_crossprepare_plugin
+%endif
+
+# only needed as workaround for chroot builds:
+#Required: kmod
+#Required: kernel-default
+
+#Required: cross-riscv-linux-gnueabi-glibc
+#Required: cross-riscv-linux-gnueabi-gcc
+#Required: cross-riscv-linux-gnueabi-kernel-headers
+
+
