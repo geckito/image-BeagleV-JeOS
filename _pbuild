@@ -4,7 +4,6 @@
     <hostrepo>https://download.opensuse.org/repositories/Geckito:/SDK:/Main/openSUSE_Factory</hostrepo>
     <hostrepo>https://download.opensuse.org/repositories/openSUSE:/Tools/openSUSE_Factory</hostrepo>
     <hostrepo>http://ftp.uni-erlangen.de/opensuse/tumbleweed/repo/oss/</hostrepo>
-    <repo>https://download.opensuse.org/repositories/home:/Andreas_Schwab:/riscv:/beaglev/standard</repo>
     <repo>https://download.opensuse.org/ports/riscv/tumbleweed/repo/oss/</repo>
     <arch>riscv64</arch>
   </preset>
